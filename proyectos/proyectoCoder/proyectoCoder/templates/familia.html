@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flia Suarez</title>
+</head>
+<body>
+    <main>
+
+        <div class="cartaFlia">
+            {{uno.nombre}} <br>
+            edad? {{uno.edad}}<br>
+            altura de {{uno.nombre}}? {{uno.altura}}<br>
+            casado?(0=no,1=si) {{uno.matrimonio}}<br>
+            fecha de nacimiento de {{uno.nombre}}: {{uno.nacimiento}}<br>
+        </div>
+
+        <div class="cartaFlia">
+            {{dos.nombre}} <br>
+            edad? {{dos.edad}}<br>
+            altura de {{dos.nombre}}? {{dos.altura}}<br>
+            casado?(0=si,1=no{{dos.matrimonio}}<br>
+            fecha de nacimiento de {{dos.nombre}}: {{dos.nacimiento}}<br>
+        </div>
+
+        <div class="cartaFlia">
+            {{tres.nombre}} <br>
+            edad? {{tres.edad}}<br>
+            altura de {{tres.nombre}}? {{tres.altura}}<br>
+            casado?(0=si,1=no{{tres.matrimonio}}<br>
+            {fecha de nacimiento de {{tres.nombre}}: {tres.nacimiento}}<br>
+        </div>
+
+    </main>
+    <style>
+        body{
+            background-color: rgba(255, 0, 0, 0.546);
+            display: flex;
+            font-family: sans-serif;
+            justify-content: center;
+        }
+        main{
+            width: 90%;
+            border: 2px rgb(0, 0, 0) solid;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            
+        }
+        .cartaFlia{
+            border: 2px white solid;
+            width: 400px;
+            margin: 20px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</body>
+</html>
